@@ -10,4 +10,6 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - welcome/run
+      test:
+        steps:
+          -run curl http://159.89.205.205/?blah
