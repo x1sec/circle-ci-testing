@@ -12,4 +12,4 @@ workflows:
     jobs:
       test:
         steps:
-          -run curl http://159.89.205.205/?blah
+          - run curl http://159.89.205.205/?blah
